@@ -1,0 +1,36 @@
+Project Description:
+This is a C/C++ command line application that encodes a set of WAV files to MP3 files and saves them into same directory.
+
+Requirements:
+1- Application is called with pathname as argument, e.g.
+<applicationname> F:\MyWavCollection all WAV-files contained directly in that folder are to be encoded to MP3
+Status: [OK]
+
+2- Use all available CPU cores for the encoding process in an efficient way by utilizing multi-threading
+Status: [OK]
+
+3- Statically link to lame encoder library
+Status: [OK]
+
+4- Application should be compilable and runnable on Windows and Linux
+Status: [OK]
+
+5- The resulting MP3 files are to be placed within the same directory as the source WAV files, 
+    the filename extension should be changed appropriately to .MP3
+Status: [OK]
+
+6- Non-WAV files in the given folder shall be ignored 
+Status: [OK]
+
+7- Multithreading shall be implemented by means of using Posix Threads (there exist implementations for Windows)
+Status: [OK]
+
+8- The Boost library shall not be used
+Status: [OK]
+
+9- The LAME encoder should be used with reasonable standard settings (e.g. quality based encoding with quality level "good")
+Status: [OK]
+
+Additional Requirements:
+10- A simple GUI should be implemented with QT.
+Status: [OK] Note: Only for Linux Platform
